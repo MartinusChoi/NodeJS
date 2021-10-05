@@ -95,7 +95,7 @@ console.log()
 console.log(__dirname + url);
 ```
 
-### 웹 서버의 응답 코드
+## 웹 서버의 응답 코드
 
 `main.js`내의 코드 중 다음 코드는 어떤 의미일까?
 

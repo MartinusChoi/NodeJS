@@ -20,7 +20,7 @@ Node.js에 대해 공부하고 실습한 내용을 정리합니다.
 |    └── index.html
 |
 ├── data
-|    ├── coding.jpg
+|    ├── Nodejs
 |    |
 |    ├── HTML
 |    |
@@ -30,6 +30,13 @@ Node.js에 대해 공부하고 실습한 내용을 정리합니다.
 |
 ├── js
 |    └── main.js
+|
+├── nodejs
+|    ├── fileread.js
+|    |
+|    ├── readdir.js
+|    |
+|    └── sample.txt
 |
 ├── summary
 |    ├── [1]_start-NodeJS.md
@@ -42,21 +49,31 @@ Node.js에 대해 공부하고 실습한 내용을 정리합니다.
 |    |
 |    └── [5]_make-dynamic-webpage.md
 | 
-└── syntax
-     ├── number.js
-     |
-     ├── string.js
-     |
-     ├── template.js
-     |
-     ├── variable.js
-     |
-     └── variable2.js
+├── syntax
+|    ├── array-loop.js
+|    |
+|    ├── array.js
+|    |
+|    ├── conditional.js
+|    |
+|    ├── number.js
+|    |
+|    ├── string.js
+|    |
+|    ├── template.js
+|    |
+|    ├── variable.js
+|    |
+|    └── variable2.js
+|
+├── coding.jpg
+|
+└── README.md
 ```
 
-### summary
+### `summary` directory
 
-> 공부한 내용을 정리하여 markdown 파일로 정리해둔 directory 입니다.
+> 공부한 내용 중 핵심 내용을 정리하여 markdown 파일로 정리해둔 directory 입니다.
 
 ---
 ## Reference

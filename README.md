@@ -19,8 +19,14 @@ Node.js에 대해 공부하고 실습한 내용을 정리합니다.
 |    |
 |    └── index.html
 |
-├── img
-|    └── coding.jpg
+├── data
+|    ├── coding.jpg
+|    |
+|    ├── HTML
+|    |
+|    ├── CSS
+|    |
+|    └── JavaScript
 |
 ├── js
 |    └── main.js

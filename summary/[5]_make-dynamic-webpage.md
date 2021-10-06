@@ -1,3 +1,8 @@
+# 동적인 웹 페이지 만들기
+
+아래와 같이 `main.js`를 바꾸어 보자.
+
+```javascript
 var http = require('http');
 var fs = require('fs');
 var url = require('url'); 
@@ -44,3 +49,11 @@ var app = http.createServer(function(request, response) {
     response.end(template); // 템플릿 리터럴로 응답
 })
 app.listen(3000)
+```
+
+**템플릿 리터럴**을 사용하여 html 코드를 `template` 변수에 담았고, 이를 `response.end(template)`와 같이 반환하여 주었다.
+- 이때, 페이지의 헤드와 제목을 요청받은 url의 id값으로 바꿔주기 위해 `${}` 형식을 사용하였고, 각 `<a>` 태그의 `href` 속성도 눌렀을 때 해당 쿼리스트링을 가진 url로 이동할 수 있도록 바꾸어주었다.
+
+> 이를 동작시켜보면, 링크에 들어갈 때 마다 페이지의 제목이 바뀌어 보이는 것을 확인할 수 있다. 웹 페이지를 동적으로 생성한 것이다.
+
+> 이렇게 하면 웹 페이지상에서 **사용자 요청에 따라 변경해야 하는 부분은 쿼리 스트링을 이용해 다르게 표현**하고, **나머지 부분은 공통된 소스를 재활용**함으로써 **유지보수를 편리**하게 할 수 있다.

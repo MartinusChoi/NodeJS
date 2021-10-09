@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <title>HTML Form</title>
+</head>
+<body>
+    <!-- 반드시 "post" 방식으로 안전하고 많이 보내도록 설정해야함! -->
+    <form action="http://localhost:3000/process_create" method="post"> 
+        <p><input type="text" name="title"></p>
+        <p>
+            <textarea name="description"></textarea>
+        </p>
+        <p>
+            <input type="submit">
+        </p>
+    </form>
+</body>
